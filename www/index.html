@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.66, minimum-scale=0.66, maximum-scale=0.66" /> 
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link href='http://fonts.googleapis.com/css?family=Dosis&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+        <title>Superhealty</title>
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/funkcije.js"></script> <!-- shrenjene vse funkcije programa -->
+		<script>
+			document.addEventListener("deviceready", onDeviceReady, false);
+
+			function onDeviceReady() {
+				alert("ready");
+			}
+						
+			$(document).ready(function() {
+				$('.loading').show();
+				$("#page").load("http://bplanet.si/web/ekoloska/strani/test.php", function() {
+					$('.loading').hide();
+				});
+			});
+		</script>
+    </head>
+	
+    <body>
+		
+		<div width="100%" align="center" style="margin: auto">
+			<div style="padding-top: 40px"></div>
+			<img src="img/logo.png" style="max-width: 50%" />
+			<div style="padding-top: 20px"></div>
+			<img src="img/napis.png" style="max-width: 80%"/>
+		</div>
+		
+		<div style="padding-top: 100px"></div>
+		<div class="neki" align="center">
+			<div style="padding-top: 5px"></div>
+			<table width="80%" height="50px" >
+				<tr style="border-bottom: 1px solid #ffffff">
+					<td style="border-right: 1px solid #ffffff" width="50px"> slikica</td>
+					<td> </td>
+					<td valign="center" > <div class="font" >ENCYCLOPEDIA OF SUPERFOODS  </div></td>
+				</tr>
+			</table>
+			<div style="padding-top: 5px"></div>
+		</div>
+		
+		<div class="neki" align="center">
+			<div style="padding-top: 5px"></div>
+			<table width="80%" height="50px" >
+				<tr style="border-bottom: 1px solid #ffffff">
+					<td style="border-right: 1px solid #ffffff" width="50px"> slikica</td>
+					<td> </td>
+					<td valign="center" > <div class="font" >SEARCH BY SYMPTOMS  </div></td>
+				</tr>
+			</table>
+			<div style="padding-top: 5px"></div>
+		</div>
+		
+		<div class="neki" align="center">
+			<div style="padding-top: 5px"></div>
+			<table width="80%" height="50px" >
+				<tr style="border-bottom: 1px solid #ffffff">
+					<td style="border-right: 1px solid #ffffff" width="50px"> slikica</td>
+					<td> </td>
+					<td valign="center" > <div class="font" >SUBMIT YOU SUPERFOOD </div></td>
+				</tr>
+			</table>
+			<div style="padding-top: 5px"></div>
+		</div>
+		<div style="padding-top: 60px"></div>
+		<div class="font" align="center"> "Help yourself with superfood" </div>
+		
+    </body>
+</html>
