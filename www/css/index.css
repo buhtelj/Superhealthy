@@ -21,7 +21,7 @@
 }
 
 body {
-	background:url(../img/ozadje.png) no-repeat center top; /* 170px x 200px */
+	background-color: #ffffff;
     position:absolute;             /* position in the center of the screen */
     font-family: 'Dosis', sans-serif;
     font-size:12px;
@@ -48,6 +48,8 @@ a{
 	font-size: 150%;
 	color: #FFFFFF;
 }
+
+	
 
 /* Portrait layout (default) */
 
