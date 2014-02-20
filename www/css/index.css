@@ -35,6 +35,11 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	color: #F97437;
+}
+
+
 .neki{
 	color: #000000;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -49,6 +54,13 @@ a{
 	color: #FFFFFF;
 }
 
+.font:hover{
+	color: #F97437;
+}
+
+.font:active{
+	color: #F97437;
+}
 	
 
 /* Portrait layout (default) */
