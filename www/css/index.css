@@ -66,11 +66,32 @@ a:hover{
 .font:active{
 	color: #F97437;
 }
-.outer{position: absolute; width: 100%; background: white; left:0; top: auto; display: none; text-align: left;}
-.inner {background: wihte; padding: 20px 30px;padding-left: 100px; position: relative; }
 
-li{display: inline-block; background-color: #4C4C4C; }
-li.active {margin-bottom:350px; background-color: #F97437; position: relative;}
+.font2{
+	font-size: 200%;
+	color: #FFFFFF;
+}
+.outer{position: absolute; width: 100%; background: white; left:0; top: auto; display: none; text-align: left;}
+.inner {background: wihte; padding: 0; position: relative; }
+
+li{display: inline-block;  width: 100%;}
+li.active {margin-bottom:400px; }
+
+li.active .f{text-align: right; background-color: #F97437;} 
+
+li.active .s{ display: block;}
+
+.f{
+	width: 100%;
+	padding: 0px; 
+	text-align: left;
+	background-color: #4C4C4C;
+}
+
+.s{
+	display: none;
+	
+}
 
 /* Portrait layout (default) */
 
