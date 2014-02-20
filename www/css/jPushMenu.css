@@ -6,22 +6,22 @@
 
 .cbp-spmenu h3 {
 	color: #FFF;
-	font-size: 1.9em;
+	font-size: 2.0em;
 	padding: 20px;
 	margin: 0;
 	font-weight: 300;
-	background: #4C4C4C;
+	background: #858585;
 }
 
 .cbp-spmenu a {
 	display: block;
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 1.5em;
 	font-weight: 300;
 }
 
 .cbp-spmenu a:hover {
-	background: #858585
+	background: #858585;
 }
 
 .cbp-spmenu a:active {

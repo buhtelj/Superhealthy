@@ -51,5 +51,34 @@
 			</table>
 		</div>
 		
+		<ul style="list-style: none; ">
+    <li style="padding-bottom: 1px;" height="auto">
+        <div style="width: 1000px; height: 20px;padding: 10px; text-align: right; ">  A </div>
+        
+        <div class="outer">
+          <div class="inner">        asddd     </div>   
+        </div>
+    </li>      
+</ul>
+<div style="padding-top: 2px"></div>
+<ul style="list-style: none; top: 0px;">
+
+        <li>
+        <div style="width: 156px; height: 156px; border: solid #cfcfcf 1px; padding: 0px; text-align: center; color: #cfcfcf;"> 156px X 156px</div>
+        
+        <div class="outer">
+          <div class="inner">
+              <div class="font" style="color: #000000"> asdasdad </div>
+          </div>   
+        </div>
+    </li>  
+</ul>
+
+<script>
+$('li').on('click', function(e){
+  $(this).find('.outer').slideToggle();
+  $(this).toggleClass('active', 200);
+});
+</script>
     </body>
 </html>

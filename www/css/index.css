@@ -66,7 +66,11 @@ a:hover{
 .font:active{
 	color: #F97437;
 }
-	
+.outer{position: absolute; width: 100%; background: white; left:0; top: auto; display: none; text-align: left;}
+.inner {background: wihte; padding: 20px 30px;padding-left: 100px; position: relative; }
+
+li{display: inline-block; background-color: #4C4C4C; }
+li.active {margin-bottom:350px; background-color: #F97437; position: relative;}
 
 /* Portrait layout (default) */
 
