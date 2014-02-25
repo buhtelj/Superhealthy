@@ -33,8 +33,6 @@ body {
 
 #content{
 	width: 100%;
-	margin: auto;
-	min-height: 180px;
 }
 
 .loading {
@@ -82,6 +80,16 @@ a:hover{
 
 .font:active{
 	color: #F97437;
+}
+
+.font_Ime{
+	font-size: 150%;
+	color: #000000;
+}
+.font_Latinsko{
+	font-size: 150%;
+	color: #000000;
+	font-style: italic;
 }
 
 .font2{

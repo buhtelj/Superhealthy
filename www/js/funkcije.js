@@ -1,5 +1,5 @@
 	function izdelek(id_izd){
-		$("#izdelek").load("http://bplanet.si/web/ekoloska/strani/izdelek.php", {id_izdelka: id_izd}, function() { 
+		$("#izdelek").load("http://www.ekoloska-trgovina.si/do_not_delete/superhealty/izdelek.php", {id_izdelka: id_izd}, function() { 
 			$('.loading').hide();
 			$('#content').hide();
 		});
