@@ -31,6 +31,15 @@ body {
     width:100%;
 }
 
+#content{
+	width: 95%;
+	margin: auto;
+	min-height: 180px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
 a{
 	text-decoration: none;
 }
