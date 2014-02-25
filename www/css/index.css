@@ -32,12 +32,9 @@ body {
 }
 
 #content{
-	width: 95%;
+	width: 100%;
 	margin: auto;
 	min-height: 180px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-
 }
 
 .loading {
