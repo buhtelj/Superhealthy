@@ -23,3 +23,7 @@
 	jQuery(document).ready(function($) {
 		$('.toggle-menu').jPushMenu();
 	});
+	
+	function exitFromApp(){
+		navigator.app.exitApp();
+	}
