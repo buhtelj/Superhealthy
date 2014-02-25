@@ -21,8 +21,19 @@
 		<script src="../js/funkcije.js"></script> <!-- shrenjene vse funkcije programa -->
 
 		<script>
-			jQuery(document).ready(function($) {
-				$('.toggle-menu').jPushMenu();
+			
+			
+			document.addEventListener("deviceready", onDeviceReady, false);
+
+			function onDeviceReady() {
+				alert("ready");
+			}
+						
+			$(document).ready(function() {
+				$('.loading').show();
+				$("#page").load("http://bplanet.si/web/ekoloska/strani/ki-energijska-vadba.php", function() {
+					$('.loading').hide();
+				});
 			});
 		</script>
     </head>
@@ -49,64 +60,13 @@
 				</tr>
 			</table>
 		</div>
-
+		<!-- Od tukej naprej -->
 		
-		<div style="background-color: #F97437; top: 0; " align="right">
-			<div class="font" style="padding: 5px 40px 5px 0px;"> A </div>
+		<div id="content">
+			<div id="page"></div>
+			<div class="loading"></div>
 		</div>
 		
-		<div style="float: right; padding-right: 35px;">
-			<div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #F97437;"></div>
-		</div>
-		<div style="padding-top: 25px"></div>
-		
-			<table width="80%" align="center">
-				<tr>
-					<td width="40%">
-						<img src="../img/acai.png" style="max-width:100%" />
-					</td>
-					<td wi>
-						<div class="font" style="color: #000000;"> ACAI</div>
-						<div class="font" style="color: #000000;"> ACAI</div>
-					</td>
-				</tr>
-			</table>
-			
-			<div style="padding-top: 15px"></div>
-			<div style="border-bottom: 1px solid #D4D4D4;"></div>
-			<div style="padding-top: 15px"></div>
-			<table width="80%" align="center">
-				<tr>
-					<td width="40%">
-						<img src="../img/acerola.png" style="max-width: 100%" />
-					</td>
-					<td>
-						<div class="font" style="color: #000000;"> ACEROLA </div>
-						<div class="font" style="color: #000000;"> ACEROLA </div>
-					</td>
-				</tr>
-			</table>
-		
-		<div style="padding-top: 25px"></div>
-		<div style="background-color: #4C4C4C; top: 0; " align="left">
-			<div class="font" style="padding: 5px 0px 5px 40px;"> B </div>
-		</div>
-		<div style="padding-top: 1px"></div>
-		
-		<div style="background-color: #4C4C4C; top: 0; " align="left">
-			<div class="font" style="padding: 5px 0px 5px 40px;"> C </div>
-		</div>
-		<div style="padding-top: 1px"></div>
-		
-		<div style="background-color: #4C4C4C; top: 0; " align="left">
-			<div class="font" style="padding: 5px 0px 5px 40px;"> D </div>
-		</div>
-		<div style="padding-top: 1px"></div>
-		
-		<div style="background-color: #4C4C4C; top: 0; " align="left">
-			<div class="font" style="padding: 5px 0px 5px 40px;"> E </div>
-		</div>
-		<div style="padding-top: 1px"></div>
 		
     </body>
 </html>
