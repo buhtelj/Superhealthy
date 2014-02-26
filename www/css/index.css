@@ -55,7 +55,9 @@ a:hover{
 	background-color: rgba(249,116,55,0.4);
 }
 
-
+.klik tr:hover{
+	background: rgba(249,116,55,0.2);
+}
 .neki{
 	color: #000000;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -71,7 +73,7 @@ a:hover{
 }
 
 .font{
-	font-size: 150%;
+	font-size: 170%;
 	color: #FFFFFF;
 }
 
