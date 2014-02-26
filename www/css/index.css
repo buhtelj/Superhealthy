@@ -81,6 +81,11 @@ a:hover{
 	color: #F97437;
 }
 
+table{
+	cellspacing: 0;
+	cellpadding: 0;
+}
+
 .font:active{
 	color: #F97437;
 }
