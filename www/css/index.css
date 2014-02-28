@@ -21,7 +21,8 @@
 }
 
 body {
-	background-color: #ffffff;
+	background: url(../img/ozadje.png) no-repeat center top;
+	#background-color: #ffffff;
     position:absolute;             /* position in the center of the screen */
     font-family: 'Dosis', sans-serif;
     font-size:12px;
@@ -29,6 +30,7 @@ body {
     margin:0px;
     padding:0px;
     width:100%;
+	
 }
 
 #content{
@@ -62,7 +64,7 @@ a:hover{
 	color: #000000;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 	background-color: rgba(0,0,0,0.4);
-	height: 60px;
+	height: 70px;
 	width: 100%;
 
 }
@@ -73,13 +75,10 @@ a:hover{
 }
 
 .font{
-	font-size: 170%;
+	font-size: 180%;
 	color: #FFFFFF;
 }
 
-.font:hover{
-	color: #F97437;
-}
 
 table{
 	cellspacing: 0;
@@ -130,7 +129,13 @@ li.active .s{ display: block;}
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-
+	body{
+		background: url(../img/ozadje2.png) no-repeat center top;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover
+	}
 }
 
 h1 {
