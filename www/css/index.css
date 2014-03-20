@@ -58,8 +58,7 @@ a:hover{
 }
 
 .klik tr:hover{
-	background: rgba(76,76,76,0.2);
-	box-shadow:10px 10px 10px 10px pink inset;	
+	box-shadow:10px 10px 10px 10px gray inset;	
 }
 .neki{
 	color: #000000;
