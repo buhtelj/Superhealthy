@@ -77,7 +77,7 @@ a:hover{
 }
 
 .font{
-	font-size: 150%;
+	font-size: 50%;
 	color: #FFFFFF;
 }
 
@@ -92,17 +92,17 @@ table{
 }
 
 .font_Ime{
-	font-size: 150%;
+	font-size: 50%;
 	color: #000000;
 }
 .font_Latinsko{
-	font-size: 150%;
+	font-size: 50%;
 	color: #000000;
 	font-style: italic;
 }
 
 .font2{
-	font-size: 330%;
+	font-size: 175%;
 	color: #FFFFFF;
 }
 .outer{position: absolute; width: 100%; background: white; left:0; top: auto; display: none; text-align: left;}
