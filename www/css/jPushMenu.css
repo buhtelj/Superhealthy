@@ -2,6 +2,7 @@
 .cbp-spmenu {
 	background: #4C4C4C;
 	position: fixed;
+	height: 100%;
 }
 
 .cbp-spmenu h3 {
@@ -16,7 +17,7 @@
 .cbp-spmenu a {
 	display: block;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 100%;
 	font-weight: 300;
 }
 
@@ -60,7 +61,7 @@
 .cbp-spmenu-horizontal a {
 	float: left;
 	width: 20%;
-	padding: 0.8em;
+	padding: 0.5em;
 	border-left: 1px solid #258ecd;
 }
 
