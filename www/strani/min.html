@@ -27,7 +27,7 @@
 						
 			$(document).ready(function() {
 				$('.loading').show();
-				$("#page").load("http://www.ekoloska-trgovina.si/do_not_delete/superhealty/mineraliEn.php", {id_izdelka: getQueryVariable("id") }, function() { 
+				$("#page").load("http://www.ekoloska-trgovina.si/do_not_delete/superhealty/mineraliEn.php", function() {
 					$('.loading').hide();
 				});
 			});
