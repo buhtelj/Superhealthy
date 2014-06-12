@@ -77,7 +77,7 @@ a:hover{
 }
 
 .font{
-	font-size: x-large;
+	font-size: large;
 	color: #FFFFFF;
 }
 
@@ -96,7 +96,7 @@ table{
 	color: #000000;
 }
 .font_Latinsko{
-	font-size:  x-large;
+	font-size: small;
 	color: #000000;
 	font-style: italic;
 }
