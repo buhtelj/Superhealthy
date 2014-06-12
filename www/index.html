@@ -15,8 +15,14 @@
 
 			function onDeviceReady() {
 				alert("ready");
+				networkState = navigator.network.connection.type; 
+				if (networkState == Connection.NONE)
+				{
+				  alert('No internet connection ');
+				};
 				document.addEventListener("offline", whenOffline, false);
-				return false;
+				
+				
 			}
 			function whenOffline() {
 				navigator.notification.alert(
