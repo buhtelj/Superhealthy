@@ -22,7 +22,6 @@
 
 body {
 	background: url(../img/ozadje.png) no-repeat center top;
-	#background-color: #ffffff;
     position:absolute;             /* position in the center of the screen */
     font-family: 'Dosis', sans-serif;
     font-size:12px;
