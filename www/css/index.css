@@ -21,8 +21,11 @@
 }
 
 body {
-	background: url(../img/ozadje.png) no-repeat center top;
-    position:absolute;             /* position in the center of the screen */
+	background: url(../img/ozadje.png) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
     font-family: 'Dosis', sans-serif;
     font-size:12px;
     height:100%;
