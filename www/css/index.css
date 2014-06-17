@@ -21,7 +21,7 @@
 }
 
 body {
-	background: url(../img/ozadje.png) no-repeat center center fixed; 
+	background: url(../img/ozadje.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -147,7 +147,11 @@ li.active .s{ display: block;}
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
 	body{
-		background: url(../img/ozadje2.png) no-repeat top;
+		background: url(../img/ozadje.jpg) no-repeat center center fixed; 
+		height:100%;
+		margin:0px;
+		padding:0px;
+		width:100%;
 
 	}
 }
