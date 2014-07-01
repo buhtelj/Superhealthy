@@ -1,8 +1,10 @@
 /* General styles for all menus */
 .cbp-spmenu {
-	background: #4C4C4C;
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	position: fixed;
-	height: 100%;
+	height: 200%;
 }
 
 .cbp-spmenu h3 {
@@ -33,8 +35,12 @@
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 200%;
 	width: 240px;
-	height: 100%;
 	top: 0;
 	z-index: 1000;
 }
