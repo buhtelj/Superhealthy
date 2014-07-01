@@ -71,7 +71,7 @@ a:hover{
 	border-bottom: 1px solid #000; */
 } 
 
-.klik tr:hover a{
+.klik tr:hover {
 	background: rgba(76,76,76,0.2);
 	color: #F97437;
 	/* border-top: 1px solid #000;
