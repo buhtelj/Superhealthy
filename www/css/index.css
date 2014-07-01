@@ -145,6 +145,13 @@ li.active .s{ display: block;}
 
 /* Portrait layout (default) */
 
+@media screen (max-width:500px) {
+	.font{
+		font-size: small;
+		color: #FFFFFF;
+	}
+
+}
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
 	body{
