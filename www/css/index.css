@@ -54,7 +54,11 @@ a:hover{
 	color: #F97437;
 }
 
-
+.napis{
+	font-size: xx-large;
+	color: #FFF;
+	text-shadow:2px 1px #6f6f6f;
+}
 .menii:hover{
 	color: #F97437;
 	background-color: rgba(249,116,55,0.4);
