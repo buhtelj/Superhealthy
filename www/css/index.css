@@ -72,18 +72,12 @@ a:hover{
 } 
 
 .klik tr:hover a{
-	/* background: rgba(76,76,76,0.2);*/
+	background: rgba(76,76,76,0.2);
 	color: #F97437;
 	/* border-top: 1px solid #000;
 	border-bottom: 1px solid #000; */
 }
 
-.klik tr:hover {
-	/* background: rgba(76,76,76,0.2);*/
-	color: #F97437;
-	/* border-top: 1px solid #000;
-	border-bottom: 1px solid #000; */
-}
 
 
 .neki{
