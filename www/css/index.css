@@ -56,7 +56,7 @@ a:hover{
 
 .napis{
 	font-family: 'Pacifico', cursive;
-	font-size: xx-large;
+	font-size: 500%;
 	color: #FFF;
 	text-shadow:2px 1px #6f6f6f;
 }
@@ -93,7 +93,7 @@ a:hover{
 }
 
 .font{
-	font-size: x-large;
+	font-size: medium;
 	color: #FFFFFF;
 }
 
