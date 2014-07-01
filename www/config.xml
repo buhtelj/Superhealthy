@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="si.bplanet.superhealty" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name> Superhealty </name>
+    <name> Superhealthy </name>
     <description>
-        Superhealty mobile app
+        Superhealthy mobile app
     </description>
     <author email="info@bplanet.si" href="http://bplanet.si">
         BPLANET.SI

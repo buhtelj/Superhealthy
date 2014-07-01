@@ -24,12 +24,11 @@
 }
 
 .cbp-spmenu a:hover {
-	background: #858585;
+	background: rgba(76,76,76,0.2);
 }
 
 .cbp-spmenu a:active {
-	background: #4C4C4C;
-	color: #47a3da;
+	background: rgba(76,76,76,0.2);
 }
 
 /* Orientation-dependent styles for the content of the menu */
