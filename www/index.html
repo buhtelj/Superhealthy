@@ -17,17 +17,7 @@
 			function onDeviceReady() {
 				alert("ready");
 				document.addEventListener("offline", whenOffline, false);
-			}
-			function whenOffline() {
-				navigator.notification.alert(
-				'Sorry your internet connection is not working, please enable it !', // message
-				alertDismissed, // callback
-				'Settings', // title
-				'Done' // buttonName
-				);
-				return false;
-			}
-									
+			}			
 		</script>
     </head>
 	
