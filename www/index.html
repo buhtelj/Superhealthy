@@ -15,27 +15,23 @@
 
 			// Wait for PhoneGap to load
 			// 
-			document.addEventListener("deviceready", onDeviceReady, false);
+				document.addEventListener("deviceready", onDeviceReady, false);
 
 			// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
 			//
 			function onDeviceReady() {
-				checkConnection();
+				document.addEventListener("offline", whenOffline, false);
+				return false;
 			}
 
-			function checkConnection() {
-				var networkState = navigator.network.connection.type;
-
-				var states = {};
-				states[Connection.UNKNOWN]  = 'Unknown connection';
-				states[Connection.ETHERNET] = 'Ethernet connection';
-				states[Connection.WIFI]     = 'WiFi connection';
-				states[Connection.CELL_2G]  = 'Cell 2G connection';
-				states[Connection.CELL_3G]  = 'Cell 3G connection';
-				states[Connection.CELL_4G]  = 'Cell 4G connection';
-				states[Connection.NONE]     = 'No network connection';
-
-				alert('Connection type: ' + states[networkState]);
+			function whenOffline() {
+				navigator.notification.alert(
+					'Sorry your internet connection is not working, please enable it !', // message
+					alertDismissed, // callback
+					'Settings', // title
+					'Done' // buttonName
+				);
+				return false;
 			}
 
 		</script>
