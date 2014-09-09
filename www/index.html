@@ -16,7 +16,7 @@
 
 			// Wait for PhoneGap to load
 			// 
-				document.addEventListener("deviceready", onDeviceReady, false);
+				document.addEventListener("deviceready", onDeviceReady(), false);
 				document.addEventListener("offline", onDeviceOffline(), false);
 
 			// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
@@ -26,7 +26,12 @@
 			}
 			
 			function onDeviceOffline() {
-				alert('you are offline');
+				navigator.notification.alert(
+				'Sorry your internet connection is not working, please enable it !', // message
+				alertDismissed, // callback
+				'Settings', // title
+				'Done' // buttonName
+				);
 			}
 e
 
