@@ -13,29 +13,18 @@
 		<script src="js/funkcije.js"></script> <!-- shrenjene vse funkcije programa -->
 		<script src="js/phonegap.js"></script> <!-- shrenjene vse funkcije programa -->
 		<script type="text/javascript" charset="utf-8">
-
-			// Wait for PhoneGap to load
-			// 
-				document.addEventListener("deviceready", onDeviceReady(), false);
-				
+			document.addEventListener("deviceready", onDeviceReady, false);
 
 			// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
 			//
 			function onDeviceReady() {
-				networkState = navigator.network.connection.type; 
-				if (networkState == Connection.NONE)
-				{
-					document.addEventListener("offline", onDeviceOffline(), false);
-				}
+				document.addEventListener("offline", onOffline, false);
 			}
-			
-			function onDeviceOffline() {
-				networkState = navigator.network.connection.type; 
-				if (networkState == Connection.NONE)
-				{
-					alert('Sorry your internet connection is not working, please enable it !');
-				}
-				
+
+			// Handle the offline event
+			//
+			function onOffline() {
+				alert('test');
 			}
 
 		</script>
