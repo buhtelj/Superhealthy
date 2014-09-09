@@ -30,14 +30,18 @@
 			}
 			
 			function onDeviceOffline() {
-				alert('Sorry your internet connection is not working, please enable it !');
+				networkState = navigator.network.connection.type; 
+				if (networkState == Connection.NONE)
+				{
+					alert('Sorry your internet connection is not working, please enable it !');
+				}
 				
 			}
 
 		</script>
     </head>
 	
-    <body style="">
+    <body onload="onDeviceOffline()">
 		
 		<div width="100%" align="center" style="margin: auto">
 			<div style="padding-top: 30px"></div>
