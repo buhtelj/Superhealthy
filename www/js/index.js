@@ -34,6 +34,21 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		// Cordova is ready
+function onDeviceReady() {
+document.addEventListener("offline", whenOffline, false);
+return false;
+}
+
+function whenOffline() {
+navigator.notification.alert(
+'Sorry your internet connection is not working, please enable it !', // message
+alertDismissed, // callback
+'Settings', // title
+'Done' // buttonName
+);
+return false;
+}
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
