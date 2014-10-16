@@ -21,7 +21,7 @@
 }
 
 body {
-	background: url(../img/ozadje.jpg) no-repeat top; 
+	background: url(../img/ozadje.jpg) top; 
     font-family: 'Open Sans', sans-serif;
     font-size:12px;
     height:100%;
