@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="si.bplanet.superhealthy" version="1.2" versionCode="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="si.bplanet.superhealthy" version="1.2.0" versionCode="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name> Super food encyclopedia - Superhealthy  </name>
     <description>
         Superhealthy mobile app
@@ -27,7 +27,7 @@
     <preference name="android-installLocation" value="auto" />
 	
 	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-	<string>11</string>
+	<string>12</string>
 	</gap:config-file>
 
     <icon src="icon.png" />
