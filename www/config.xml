@@ -27,7 +27,7 @@
     <preference name="android-installLocation" value="auto" />
 	
 	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-	<string>12</string>
+	<string>13</string>
 	</gap:config-file>
 
     <icon src="icon.png" />
