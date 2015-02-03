@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="si.bplanet.superhealthy" version="1.2.0" versionCode="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name> Super food encyclopedia - Superhealthy  </name>
+<widget id="si.bplanet.superhealthy" version="1.3.0" versionCode="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name> Superhealthy - Nature Cures </name>
     <description>
-        Superhealthy mobile app
+        Superhealthy - Nature Cures mobile app
     </description>
     <author email="info@bplanet.si" href="http://bplanet.si">
         BPLANET.SI
